@@ -1,0 +1,20 @@
+# SECURITY WARNING: keep the secret key used in production secret!
+SECRET_KEY = '' # your secret key
+
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:4200", # give a list of allowed orginns that can hit your backend
+]
+
+# Database
+# https://docs.djangoproject.com/en/4.2/ref/settings/#databases
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': '', # your db name
+        'USER': '', # your db user name
+        'PASSWORD': '', # your db password
+        'HOST': '127.0.0.1', 
+        'PORT': '5432',
+    }
+}
