@@ -60,3 +60,10 @@ This Django backend serves as the backend for a to-do application. It provides R
 ## Authentication
 User authentication is implemented using Django REST framework's Token Authentication. To authenticate API requests, include the Authorization header with the format: Token YOUR_TOKEN.
 
+## Run Test Cases
+You can run the testcases using the following command:
+
+`python manage.py tasks.test_views.py`
+
+`python manage.py accounts.test_views.py`
+
